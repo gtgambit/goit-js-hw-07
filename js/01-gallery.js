@@ -40,7 +40,7 @@ function openImg(event) {
   }
   instance = basicLightbox.create(`
     <div class="modal">
-        <img src=${event.target.dataset.source} width="80%" style="margin: auto; display: block"> 
+        <img src=${event.target.dataset.source}> 
     </div>
 `);
   instance.show();
