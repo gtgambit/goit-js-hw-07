@@ -39,9 +39,7 @@ function openImg(event) {
     return;
   }
   instance = basicLightbox.create(`
-    <div class="modal">
-        <img src=${event.target.dataset.source}> 
-    </div>
+  <img src=${event.target.dataset.source}> 
 `);
   instance.show();
 }
